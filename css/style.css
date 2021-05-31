@@ -7,3 +7,10 @@ div p {
 div > p {
   color: aquamarine;
 }
+
+/* imgタグの直後のpタグを選択 */
+img + p {
+  font-size: 10px;
+  color: gray;
+  font-style: italic;
+}

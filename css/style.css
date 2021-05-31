@@ -8,9 +8,29 @@ div > p {
   color: aquamarine;
 }
 
-/* imgタグの直後のpタグを選択 */
+/* imgタグの直後のpタグのみを選択 */
 img + p {
   font-size: 10px;
   color: gray;
   font-style: italic;
+}
+
+article ~ h1 {
+  font-weight: 900;
+  color: blue;
+}
+
+button {
+  padding: 10px 8px;
+  border-radius: 8px;
+}
+
+/* button要素にマウスを重なった時 */
+button:hover {
+  background: red;
+}
+
+/* button要素をクリックした時 */
+button:active {
+  background: indianred;
 }

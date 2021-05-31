@@ -19,3 +19,9 @@ a[href^='https'] {
   color: yellow;
   text-decoration: none;
 }
+
+/* imgタグのsrc属性値の最後が`.png`で終わる */
+img[src$='.png'] {
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 rgba(0, 0, 0, 019);
+}

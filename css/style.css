@@ -1,0 +1,9 @@
+/* divタグ内の全pタグを選択 */
+div p {
+  line-height: 2em;
+}
+
+/* divタグ内の子要素であるpのみを選択 */
+div > p {
+  color: aquamarine;
+}
